@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'hellowdevapp'
           slot-name: 'Production'
-          publish-profile: $
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_614DFFD860B7487F862D608558EDF4A1 }}
           package: ./dist/hello-world-app
